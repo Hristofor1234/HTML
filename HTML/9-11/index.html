@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- viewport-это называется прагма, благодаря ей мы
+     мы используем = width=device-width, эта строка определяет 
+     ширину просмотра в пикселях. initial-scale определяет соотношение
+     между шириной и областью просмотра -->
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <div class="popup">
+            <a href="#">Главная</a>
+            <a id="show_add_photo" href="#">Фото</a>
+            <a href="#">Посты</a>
+            <a href="#">Личный кабинет</a>
+        </div>
+        <div class="icon">
+            <img src="/icon1/menu icon.png" alt="">
+        </div>
+    </header>
+    <h1>Галерея</h1>
+    <div id="grid">
+        <div class="photo">
+            <img src="/images1/img1.jpg" alt="">
+            <p>Фото №1</p>
+        </div>
+        <div class="photo">
+            <img src="/images1/img2.jpg" alt="">
+            <p>Фото №2</p>
+        </div>
+        <div class="photo">
+            <img src="/images1/img3.jpg" alt="">
+            <p>Фото №3</p>
+        </div>
+        <div class="photo">
+            <img src="/images1/img4.jpg" alt="">
+            <p>Фото №4</p>
+        </div>
+    </div>
+    <div id="add_new_photo">
+        <div>
+            <input id="new_photo_src" type="text" placeholder="Картинка">
+            <input id="new_photo_text" type="text" placeholder="Подписть">
+            <button id="add_photo">Добавитть</button>
+            <button id="cancel">Отмена</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

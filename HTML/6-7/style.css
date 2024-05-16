@@ -1,0 +1,58 @@
+p{
+    padding: 1rem;
+    position: relative;
+    font-size: 2rem;
+}
+p::before{
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+    border-radius: 15px;
+    overflow: hidden;
+}
+p:first-child::before{
+    background-image: url("/images1/img1.jpg");
+}
+p:nth-child(2)::before{
+    background-image: url("/images1/img3.jpg");
+}
+p:hover {
+    color: aliceblue;
+}
+p:hover::before {
+    opacity: 1;
+}
+p:active {
+    opacity: .75; 
+}
+p{
+    transition: opacity .25s ease, color .5s ease;
+}
+p::before{
+    transition: all .5s ease;
+}
+@keyframes bg_animation{
+    from{
+        background-position-y:0;
+        background-position-x:0;
+    }
+    to{
+        background-position-y:1200px;
+        background-position-x:-1000px;
+    }
+    
+}
+p::before{
+    animation: bg_animation 10s infinite cubic-bezier(1,-0.74,.12,1.85);
+    background-size: 500px auto;
+}
+
+#b2::before{
+    animation: bg_animation 10s infinite linear;
+    background-size: 500px auto;
+}
