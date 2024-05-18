@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hello{
+    color:#f86449;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+}
+.hello__2{
+    text-align: center;
+    color: rgba(46, 43, 37, 0.66);
+    font-size: 50px;
+    margin-top: 50px;
+}
+.section{
+    background-color:  #f86449;
+    width: 22%;
+    height: 110%;
+    border-radius: 13px;
+    left: 5%;
+    top: 65%;
+    position: absolute;
+    
+    
+}
+.FIO{
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.FI{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+.birthday{
+    font-size: 20px ;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+.data{
+    letter-spacing: 3.5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mail{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.maill{
+    margin-top: 10px;
+    color: rgb(69, 69, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 14px;
+
+}
+.maill:hover{
+    color: greenyellow;
+}
+.phone{
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+    letter-spacing: 3.5px;
+}
+.phone__number{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.web{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+}
+.web__https{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.geo{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+.geo__2{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(69, 69, 255);
+    text-decoration: none;
+}
+.geo__2:hover{
+    color: greenyellow;
+}
+.hobby{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.hobby__2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+}
