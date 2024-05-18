@@ -1,0 +1,63 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+#calc input{
+    grid-column-start:1 ;
+    grid-column-end: 5;
+    text-align: right;
+}
+#calc button,input{
+    padding: .5rem;
+}
+#plus{
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+#minuse{
+    grid-column-start: 4;
+    grid-row-start: 3 ;
+}
+#mnog{
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+#rav{
+    grid-column-start: 4;
+    grid-row-start: 6;
+}
+#del{
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+#kor{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    
+}
+#ac{
+    grid-row-start: 6;
+    grid-column-start: 3;
+}
+#cor{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#step{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
