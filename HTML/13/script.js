@@ -68,7 +68,12 @@ elem("#rav").addEventListener("click", function (){
             result=parseInt(last_number)*parseInt(input.value);
         }break;
         case("del"):{
-            result=parseInt(last_number)/parseInt(input.value);
+            if(parseInt(input.value) === 0){
+                result="ERROR"
+            }else{
+                result=parseInt(last_number)/parseInt(input.value);
+            }
+            
         }break;
         case("step"):{
             result=Math.pow(last_number,input.value);
@@ -90,6 +95,11 @@ elem("#kor").addEventListener("click", function(){
 
 elem("#cor").addEventListener("click", function(){
     let number=parseInt(input.value);
-    input.value=Math.sqrt(number,2);
+    if(parseInt(input.value)<=0){
+        input.value="ERROR"
+    }else{
+        input.value=Math.sqrt(number,2);
+    }
+    
 });
 
